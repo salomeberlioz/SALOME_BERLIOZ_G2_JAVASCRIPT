@@ -1,0 +1,94 @@
+/* css du site */
+
+header {
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-between ;
+    color: black;
+    background-color: rgba(250, 202, 234, 0.915);
+
+}
+
+.dark header {
+    background-color: rgb(216, 205, 213);
+}
+
+.button_header {
+    height: 50px;
+    
+}
+h1 {
+    size: 50px;
+    text-align: center; 
+}
+
+
+button {
+    background-color: rgb(254, 159, 221);
+    color: black;
+
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+body.dark{
+    background-color: black;
+    color: white;
+}
+
+
+
+ul.tabs {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+
+    
+}
+
+.tab {
+    list-style: none;
+    border: 2px black solid;
+    background-color: plum;
+    font-size: 50px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+.tab-active {
+    background-color: purple;
+    color: white;
+
+}
+
+.content {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.success {
+    border: 5px solid green;
+}
+
+.error {
+    border:1px solid red;
+    background-color: lightcoral;
+}
+
+#btn_fight_simulator {
+    cursor: pointer;
+    font-size: 50px;
+    
+}
+
+#fight {
+    display: flex;
+    justify-content: center;
+}

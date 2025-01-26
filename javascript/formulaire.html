@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class=""> 
+        <button class="button_header">Dark Mode</button>
+        <a href="site.html"> <h1> Aesthetic pics</h1></a>
+        <div>
+            <button class="button_header" id="button_form">Formulaire</button>
+            <button class="button_header" id="button_fight">Fight</button>
+        </div>        
+    </header>
+    <ul id="errorList">
+
+    </ul>
+
+    <form action="" method="post" enctype="multipart/form-data" name="form1">
+        <div>
+            <label for="pseudo">Pseudo</label>
+            <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Votre email">
+        </div>
+        <div>
+            <label for="mdp">Mot de passe</label>
+            <input type="text" id="mdp" name="mdp" placeholder="Votre mot de passe">
+        </div>
+        <div>
+            <label for="verifi_mdp">Vérification mot de passe</label>
+            <input type="text" id="verifi_mdp" name="verifi_mdp" placeholder="Vérification">
+        </div>
+        <div class="form-group">
+            <label>Vous êtes un(e)</label>
+            <input type="radio" name="option" value="option1" /> Femme
+            <input type="radio" name="option" value="option2" /> Homme
+        </div>
+
+    </form>
+    <button id="btn_valid">Valider</button>
+
+    <script src="js/formulaire.js"></script>
+    <script src="js/darkmode.js"></script> 
+    <script src="js/nav.js"></script>
+</body>
+</html>
